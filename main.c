@@ -82,7 +82,6 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    // Cleanup and quit SDL
     SDL_DestroyTexture(textTexture);
     TTF_CloseFont(font);
     SDL_DestroyRenderer(renderer);
